@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.telepathicgrunt.modidx.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "modidx.refmap.json",
+  "mixins": [],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

@@ -1,0 +1,25 @@
+modLoader="javafml" #mandatory
+loaderVersion="[30,)" #mandatory 
+issueTrackerURL="" #optional
+license="see license file"
+
+[[mods]] #mandatory
+modId="modidx" #mandatory
+logoFile="tg_icon.png"
+logoBlur=false
+version="${file.jarVersion}" #mandatory
+displayName="modidx" #mandatory
+authors="TelepathicGrunt"
+description='''
+
+'''
+
+[[dependencies.modidx]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.5, 1.17.0)"
+
+[[dependencies.modidx]]
+modId="forge"
+mandatory=true
+versionRange="[36.2.0,)"
