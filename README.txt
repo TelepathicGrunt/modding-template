@@ -1,4 +1,2 @@
-Commission done by TelepathicGrunt
-For: _______
-
-Mod details: __________
+By TelepathicGrunt
+Micromod
