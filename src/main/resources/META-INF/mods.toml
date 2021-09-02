@@ -4,22 +4,22 @@ issueTrackerURL="" #optional
 license="see license file"
 
 [[mods]] #mandatory
-modId="modidx" #mandatory
+modId="biomeadjuster" #mandatory
 logoFile="tg_icon.png"
 logoBlur=false
 version="${file.jarVersion}" #mandatory
-displayName="modidx" #mandatory
+displayName="biomeadjuster" #mandatory
 authors="TelepathicGrunt"
 description='''
 
 '''
 
-[[dependencies.modidx]]
+[[dependencies.biomeadjuster]]
 modId="minecraft"
 mandatory=true
 versionRange="[1.16.5, 1.17.0)"
 
-[[dependencies.modidx]]
+[[dependencies.biomeadjuster]]
 modId="forge"
 mandatory=true
 versionRange="[36.2.0,)"

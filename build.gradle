@@ -30,7 +30,7 @@ minecraft {
             arg "-mixin.config=" + project.getProperty('modid') + ".mixins.json"
             property 'mixin.env.remapRefMap', 'true'
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-            mods { modidx { source sourceSets.main } }
+            mods { biomeadjuster { source sourceSets.main } }
         }
 
         server {
@@ -38,7 +38,7 @@ minecraft {
             arg "-mixin.config=" + project.getProperty('modid') + ".mixins.json"
             property 'mixin.env.remapRefMap', 'true'
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-            mods { modidx { source sourceSets.main } }
+            mods { biomeadjuster { source sourceSets.main } }
         }
     }
 }

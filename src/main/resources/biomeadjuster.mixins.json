@@ -1,8 +1,8 @@
 {
   "required": true,
-  "package": "com.telepathicgrunt.modidx.mixin",
+  "package": "com.telepathicgrunt.biomeadjuster.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "modidx.refmap.json",
+  "refmap": "biomeadjuster.refmap.json",
   "mixins": [],
   "client": [],
   "injectors": {
